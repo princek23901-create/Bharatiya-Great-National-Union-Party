@@ -946,4 +946,13 @@
 
 
 </body>
+  <script>
+  // यह कोड अपने आप लोगो को सबसे ऊपर चिपका देगा
+  window.onload = function() {
+    var logoDiv = document.createElement('div');
+    logoDiv.innerHTML = '<div style="text-align:center; padding:20px; background:white;"><img src="Log.png" style="height:120px; width:auto; border-radius:50%;"></div>';
+    document.body.prepend(logoDiv);
+  };
+</script>
+
 </html>
